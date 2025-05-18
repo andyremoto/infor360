@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/<*>",
+      "target": "/index.html",
+      "status": "200"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/404.html",
+      "target": "/index.html",
+      "status": "200"
+    }
+  ]
+}

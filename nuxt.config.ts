@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
   ssr: false,
   nitro: {
-    preset: 'static',
+    preset: 'aws-amplify',
     serveStatic: true,
     prerender: {
       // Fallback property has been removed as it's not supported

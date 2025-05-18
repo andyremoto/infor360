@@ -2,16 +2,7 @@
   <div>
     <TheHeader />
     <main>
-      <HeroSection />
-      <ProblemSection />
-      <SolutionSection />
-      <TargetAudienceSection />
-      <MonetizationSection />
-      <MarketPotentialSection />
-      <CompetitiveAdvantagesSection />
-      <ValuationSection />
-      <InvestmentRoundSection />
-      <ContactSection />
+      <NuxtPage />
     </main>
     <TheFooter />
   </div>

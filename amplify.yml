@@ -6,8 +6,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - npm run generate
-        - node amplify-adapter.cjs
+        - npm run build
   artifacts:
     baseDirectory: .output/public
     files:
@@ -15,23 +14,3 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-  customHeaders:
-    - pattern: '**/*.html'
-      headers:
-        - key: 'Cache-Control'
-          value: 'max-age=0, no-cache, no-store, must-revalidate'
-    - pattern: '**/*.js'
-      headers:
-        - key: 'Cache-Control'
-          value: 'max-age=31536000, immutable'
-    - pattern: '**/*.css'
-      headers:
-        - key: 'Cache-Control'
-          value: 'max-age=31536000, immutable'
-  redirects:
-    - source: '/*'
-      target: '/index.html'
-      status: '200'
-    - source: '/404.html'
-      target: '/index.html'
-      status: '200'

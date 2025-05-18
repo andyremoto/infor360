@@ -7,12 +7,9 @@
  * with Nuxt 3 applications set to SSG mode.
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const fs = require('fs');
+const path = require('path');
 
-// Get current directory
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputDir = path.join(process.cwd(), '.output/public');
 const manifestPath = path.join(outputDir, 'deploy-manifest.json');
 

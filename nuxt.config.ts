@@ -8,8 +8,15 @@ export default defineNuxtConfig({
   tailwindcss: {
     configPath: '~/tailwind.config.js',
     exposeConfig: false,
-    injectPosition: 'first',
     viewer: true,
+  },
+  ssr: false,
+  nitro: {
+    preset: 'static',
+    serveStatic: true,
+    prerender: {
+      // Fallback property has been removed as it's not supported
+    }
   },
   app: {
     head: {

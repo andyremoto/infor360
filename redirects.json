@@ -1,6 +1,11 @@
 [
   {
-    "source": "/<*>",
+    "source": "/*",
+    "target": "/index.html",
+    "status": "200"
+  },
+  {
+    "source": "/404.html",
     "target": "/index.html",
     "status": "200"
   }

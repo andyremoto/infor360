@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/<*>",
+      "source": "/*",
       "target": "/index.html",
       "status": "200"
     }
@@ -9,6 +9,11 @@
   "redirects": [
     {
       "source": "/404.html",
+      "target": "/index.html",
+      "status": "200"
+    },
+    {
+      "source": "/200.html",
       "target": "/index.html",
       "status": "200"
     }

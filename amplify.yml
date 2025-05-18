@@ -28,6 +28,9 @@ frontend:
         - key: 'Cache-Control'
           value: 'max-age=31536000, immutable'
   redirects:
-    - source: '/<*>'
+    - source: '/*'
+      target: '/index.html'
+      status: '200'
+    - source: '/404.html'
       target: '/index.html'
       status: '200'

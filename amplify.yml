@@ -7,7 +7,7 @@ frontend:
     build:
       commands:
         - npm run generate
-        - node amplify-adapter.js
+        - node amplify-adapter.mjs
   artifacts:
     baseDirectory: .output/public
     files:

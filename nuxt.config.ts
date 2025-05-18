@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
+  plugins: [
+    '~/plugins/amplify.js'
+  ],
   tailwindcss: {
     configPath: '~/tailwind.config.js',
     exposeConfig: false,

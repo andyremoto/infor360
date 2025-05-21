@@ -109,7 +109,7 @@
               
               <div class="bg-white/10 rounded p-4 mb-6">
                 <p class="text-sm text-gray-200 mb-2">Próxima rodada prevista</p>
-                <p class="text-xl font-bold text-white">Série A - 2025</p>
+                <p class="text-xl font-bold text-white">Série A - 2026</p>
                 <p class="text-sm text-gray-300">Valuation estimado: R$ 100M</p>
               </div>
             </div>
@@ -136,7 +136,7 @@
             <!-- Event 1 -->
             <div class="flex flex-col md:flex-row items-center">
               <div class="md:w-1/2 md:pr-12 mb-4 md:mb-0 md:text-right">
-                <p class="text-sm text-gray-500">Junho 2023</p>
+                <p class="text-sm text-gray-500">Junho 2025</p>
                 <h4 class="font-bold">Início da captação</h4>
                 <p class="text-sm text-gray-600 mt-1">Abertura para investidores anjo e fundos seed</p>
               </div>
@@ -149,7 +149,7 @@
               <div class="md:w-1/2 md:pr-12 mb-4 md:mb-0 md:text-right order-1 md:order-1"></div>
               <div class="w-10 h-10 rounded-full bg-lanca-black flex items-center justify-center text-white z-10 my-2 md:my-0 order-2 md:order-2">2</div>
               <div class="md:w-1/2 md:pl-12 order-3 md:order-3">
-                <p class="text-sm text-gray-500">Outubro 2023</p>
+                <p class="text-sm text-gray-500">Outubro 2025</p>
                 <h4 class="font-bold">MVP e testes iniciais</h4>
                 <p class="text-sm text-gray-600 mt-1">Lançamento da versão inicial com parceiros-chave</p>
               </div>
@@ -158,7 +158,7 @@
             <!-- Event 3 -->
             <div class="flex flex-col md:flex-row items-center">
               <div class="md:w-1/2 md:pr-12 mb-4 md:mb-0 md:text-right">
-                <p class="text-sm text-gray-500">Março 2024</p>
+                <p class="text-sm text-gray-500">Março 2026</p>
                 <h4 class="font-bold">Lançamento oficial</h4>
                 <p class="text-sm text-gray-600 mt-1">Disponibilização da plataforma ao público</p>
               </div>
@@ -171,7 +171,7 @@
               <div class="md:w-1/2 md:pr-12 mb-4 md:mb-0 md:text-right order-1 md:order-1"></div>
               <div class="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-white z-10 my-2 md:my-0 order-2 md:order-2">4</div>
               <div class="md:w-1/2 md:pl-12 order-3 md:order-3">
-                <p class="text-sm text-gray-500">Q1 2025</p>
+                <p class="text-sm text-gray-500">Q1 2027</p>
                 <h4 class="font-bold">Expansão nacional</h4>
                 <p class="text-sm text-gray-600 mt-1">Cobertura de todas as capitais brasileiras</p>
               </div>
@@ -180,7 +180,7 @@
             <!-- Event 5 -->
             <div class="flex flex-col md:flex-row items-center">
               <div class="md:w-1/2 md:pr-12 mb-4 md:mb-0 md:text-right">
-                <p class="text-sm text-gray-500">Q3 2025</p>
+                <p class="text-sm text-gray-500">Q3 2027</p>
                 <h4 class="font-bold">Rodada Série A</h4>
                 <p class="text-sm text-gray-600 mt-1">Captação para expansão internacional</p>
               </div>

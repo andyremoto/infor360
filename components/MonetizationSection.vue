@@ -258,7 +258,7 @@
       <!-- Financial Projection -->
       <div class="bg-lanca-gray rounded-3xl p-8 md:p-12 animate-on-scroll">
         <h3 class="text-2xl md:text-3xl font-bold text-center mb-10">
-          Projeção Financeira <span class="gold-text">2024-2026</span>
+          Projeção Financeira <span class="gold-text">2025-2027</span>
         </h3>
         
         <div class="overflow-x-auto">
@@ -266,9 +266,9 @@
             <thead>
               <tr>
                 <th class="text-left py-4 px-4 font-semibold text-gray-500">Fonte de Receita</th>
-                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 1 (2024)</th>
-                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 2 (2025)</th>
-                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 3 (2026)</th>
+                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 1 (2025)</th>
+                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 2 (2026)</th>
+                <th class="text-center py-4 px-4 font-semibold text-gray-500">Ano 3 (2027)</th>
               </tr>
             </thead>
             <tbody>
